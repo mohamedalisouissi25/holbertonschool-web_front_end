@@ -1,0 +1,16 @@
+/* mixin margin */
+
+@mixin margin($sass)
+{
+    margin-left: $sass;
+    margin-right: $sass;
+}
+
+body
+{
+    @include margin(10px);
+}
+    div
+{
+    @include margin(15px);
+}
