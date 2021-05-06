@@ -1,0 +1,9 @@
+/* Loops */
+
+@for $a from 1 to 6 
+{
+    h#{$a}
+    {
+        font-size: #{$a}px;
+    }    
+}
