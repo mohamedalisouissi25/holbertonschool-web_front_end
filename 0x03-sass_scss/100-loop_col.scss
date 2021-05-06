@@ -1,0 +1,7 @@
+@for $a from 1 to 5 
+{
+    .col-#{$a}
+    {
+        width: 100%/$a;
+    }
+}
